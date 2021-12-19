@@ -1,6 +1,6 @@
 # Mozdevz: React + Django Website
 
-This project is based on the React + Django Training by Mozdevz.  
+This project is based on the React + Django Training by Mozdevz.
 
 ## Table of contents
 
@@ -30,6 +30,7 @@ Will be provided when available
 [Figma Design](https://www.figma.com/file/aWCVAvMyCHSj0POFTU0w5Z/MozdevzUI?node-id=0%3A1) - Figma with the UI. Not done yet, contributors are welcome.
 
 ## The process
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -58,14 +59,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 
 Then start contributing to the project making your changes, when you are done
-with your changes just submit your PR, we will be happy to review your code. 
+with your changes just submit your PR, we will be happy to review your code.
 
-And please may your commit messages and PR Titles be as clean and descriptive as possible. 
+And please may your commit messages and PR Titles be as clean and descriptive as possible.
 We don't follow any pattern yet but we enforce cleany and tidy git commit history.
 
-
 For other contribuitons please refer to the Figma link to see the designed project,
-use github issues to reach out and suggest any changes to the project or to add other 
+use github issues to reach out and suggest any changes to the project or to add other
 components to the project
 
 ### Useful resources
