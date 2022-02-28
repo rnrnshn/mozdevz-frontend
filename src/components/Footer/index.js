@@ -1,17 +1,16 @@
-import 
-{
-  Container, 
+import facebook from '../../assets/icons/facebook.svg'
+import twitter from '../../assets/icons/twitter.svg'
+import logo from '../../assets/logo.png'
+
+import {
+  Container,
   // FLink,
-  FooterCopy, 
-  FooterDetails, 
+  FooterCopy,
+  FooterDetails,
   FooterLogo,
   FooterNav,
   FooterSocials
-} 
-from './styles'
-import logo from '../../assets/logo.png'
-import facebook from '../../assets/icons/facebook.svg'
-import twitter from '../../assets/icons/twitter.svg'
+} from './styles'
 
 function Footer() {
   return (
@@ -19,35 +18,32 @@ function Footer() {
       {/* Logo */}
       <FooterLogo>
         <img
-          src={logo}
-          alt="Mozadevz"
-        /> 
+  src = {logo} alt =
+      "Mozadevz" / >
       </FooterLogo>
 
-      {/* Navigation */}
+      {/*Navigation
+               * /}
       <FooterNav>
         <a href="/" >Programas</a>
-        <a href="/" >Equipe</a>
+           < a href = "/">Equipe</a>
         <a href="/" >Sobre</a>
-        <a href="/" >Contacto</a>
+                                     < a href = "/">
+          Contacto</a>
       </FooterNav>
 
-      {/* Footer Details */}
-      <FooterDetails>
+      {/* Footer Details */}<FooterDetails>
 
-        <FooterSocials>
-          <i>
-            <img src={facebook} alt='mozdevz facebook' />
-          </i>
+      <FooterSocials><i><img src = {facebook} alt = 'mozdevz facebook' />
+      </i>
           <i>
             <img src={twitter} alt='mozdevz twitter' />
-          </i>
+      </i>
         </FooterSocials>
-        <FooterCopy>
-          {'<MOZDEVZ />'}. Todos os direitos reservados.
-        </FooterCopy>
-      </FooterDetails>
-    </Container>
+      <FooterCopy>{'<MOZDEVZ />'}.Todos os direitos
+          reservados.</FooterCopy>
+      </FooterDetails><
+      /Container>
   )
 }
 
