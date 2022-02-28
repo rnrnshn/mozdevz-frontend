@@ -1,6 +1,6 @@
-import facebook from '../../assets/icons/facebook.svg'
-import twitter from '../../assets/icons/twitter.svg'
-import logo from '../../assets/logo.png'
+import facebook from "../../assets/icons/facebook.svg";
+import twitter from "../../assets/icons/twitter.svg";
+import logo from "../../assets/logo.png";
 
 import {
   Container,
@@ -9,17 +9,15 @@ import {
   FooterDetails,
   FooterLogo,
   FooterNav,
-  FooterSocials
-} from './styles'
+  FooterSocials,
+} from "./styles";
 
 function Footer() {
   return (
     <Container>
       {/* Logo */}
       <FooterLogo>
-        <img
-  src = {logo} alt =
-      "Mozadevz" / >
+        <img src={logo} alt="Mozadevz" />
       </FooterLogo>
 
       {/*Navigation
@@ -32,19 +30,20 @@ function Footer() {
           Contacto</a>
       </FooterNav>
 
-      {/* Footer Details */}<FooterDetails>
-
-      <FooterSocials><i><img src = {facebook} alt = 'mozdevz facebook' />
-      </i>
+      {/* Footer Details */}
+      <FooterDetails>
+        <FooterSocials>
           <i>
-            <img src={twitter} alt='mozdevz twitter' />
-      </i>
+            <img src={facebook} alt="mozdevz facebook" />
+          </i>
+          <i>
+            <img src={twitter} alt="mozdevz twitter" />
+          </i>
         </FooterSocials>
-      <FooterCopy>{'<MOZDEVZ />'}.Todos os direitos
-          reservados.</FooterCopy>
-      </FooterDetails><
-      /Container>
-  )
+        <FooterCopy>{"<MOZDEVZ />"}.Todos os direitos reservados.</FooterCopy>
+      </FooterDetails>
+    </Container>
+  );
 }
 
 export default Footer;
