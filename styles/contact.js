@@ -123,8 +123,8 @@ export const ContactPage = styled.div`
   }
 
   .socialIcon {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   .icon {

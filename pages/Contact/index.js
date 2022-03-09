@@ -76,8 +76,8 @@ function Contact() {
                 className="icon"
                 src={facebook}
                 alt="facebook"
-                width={54}
-                height={54}
+                width={20}
+                height={20}
               />
             </i>
 
@@ -86,8 +86,8 @@ function Contact() {
                 className="icon"
                 src={twitter}
                 alt="twitter"
-                width={54}
-                height={54}
+                width={20}
+                height={20}
               />
             </i>
           </div>
