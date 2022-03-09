@@ -49,7 +49,6 @@ export const FooterSocials = styled.div`
     img{
       width: 2.3rem;
       height: 2.3rem;
-      background: var(--mid-gray);
       padding: .3rem;
       border: 2px solid var(--white);
     }

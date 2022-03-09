@@ -49,14 +49,14 @@ function Footer() {
             <Image 
               src={facebook}
               alt='mozdevz facebook'
-              width={41} height={41}
+              width={30} height={30}
             />
           </i>
           <i>
             <Image
               src={twitter}
               alt='mozdevz twitter'
-              width={41} height={41}
+              width={30} height={30}
             />
           </i>
         </FooterSocials>
