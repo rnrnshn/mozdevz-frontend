@@ -51,50 +51,6 @@ export const HomePage = styled.div`
     }
   }
 
-  .stats {
-    background: var(--light-grey);
-    padding: 2rem;
-
-    .statsDescription {
-      margin-bottom: 2rem;
-
-      .codingIcon {
-        display: none;
-      }
-
-      .statsTitle {
-        text-align: center;
-        font-size: 1.2rem;
-
-        .hightlight {
-          color: var(--primary);
-        }
-      }
-    }
-    .statsContainer {
-    }
-    @media (min-width: 720px) {
-      padding: 4rem;
-
-      .statsDescription {
-        display: flex;
-        justify-content: space-between;
-
-        .codingIcon {
-          display: block;
-          img {
-            width: 5rem;
-          }
-        }
-      }
-      .statsContainer {
-        display: flex;
-        gap: 8rem;
-        grid-gap: 8rem;
-      }
-    }
-  }
-
   .learn {
     .learnCover {
       .learnImage {

@@ -2,15 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { HomePage } from '../styles/home';
 import cover from '../assets/cover.svg';
-import codingIcon from '../assets/icons/programing.svg';
 import mozdevz from '../assets/mozdevz.jpg';
 import Header from '../components/Header';
 import CardContainer from '../components/CardContainer';
 import Footer from '../components/Footer'
 import LogoContainer from '../components/LogoContainer';
-import StatsItem from '../components/StatsItem';
-
 import { Button } from '../components/Button';
+import { StatsContainer } from '../components/StatsContainer';
 
 export default function Home() {
   return (
@@ -49,60 +47,8 @@ export default function Home() {
         </aside>
       </section>
 
-      <section className="stats">
-        {/* Description */}
-        <aside className="statsDescription">
-          <h2 className="statsTitle">
-            Impactamos milhares de
-            <span className="hightlight"> devz </span>
-            e impulsionamos carreiras
-          </h2>
-          <i className="codingIcon">
-            <Image
-              src={codingIcon}
-              alt='Coding Icon'
-              width={90}
-              height={90}
-            />
-          </i>
-        </aside>
-
-        {/* Container */}
-        <aside className="statsContainer">
-          <StatsItem
-            title={'5000'}
-            text={
-              `Pessoas sensibilizadas 
-               atraves de eventos educacionais 
-               e partilha de experiencia`
-            }
-          />
-          <StatsItem
-            title={'+800'}
-            text={
-              `Pessoas sensibilizadas 
-               atraves de eventos educacionais 
-               e partilha de experiencia`
-            }
-          />
-          <StatsItem
-            title={'+800'}
-            text={
-              `Pessoas sensibilizadas 
-               atraves de eventos educacionais 
-               e partilha de experiencia`
-            }
-          />
-          <StatsItem
-            title={'+100'}
-            text={
-              `Pessoas sensibilizadas 
-               atraves de eventos educacionais 
-               e partilha de experiencia`
-            }
-          />
-        </aside>
-      </section>
+      {/* Stats Container */}
+      <StatsContainer/>
 
       {/* Learn Section */}
       <section className="learn">
