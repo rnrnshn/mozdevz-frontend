@@ -2,6 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import {
   ConnectionSection,
+  PartnersSection,
   HeroSection,
   HomePage,
   LearnSection
@@ -48,6 +49,7 @@ export default function Home() {
           />
         </aside>
       </HeroSection>
+
       {/* Stats Container */}
       <StatsContainer />
 
@@ -88,7 +90,7 @@ export default function Home() {
       </ConnectionSection>
 
       {/* Sponsors */}
-      <section className="partners">
+      <PartnersSection>
         {/* Description */}
         <aside className="partnersDescription">
           <h2 className="partnersTitle">Parceiros</h2>
@@ -99,7 +101,7 @@ export default function Home() {
 
         {/* Container */}
         <LogoContainer />
-      </section>
+      </PartnersSection>
       <Footer />
     </HomePage>
   )

@@ -1,33 +1,6 @@
 import styled from "styled-components"
 
-export const HomePage = styled.div`
-  .partners {
-    padding: 2rem;
-
-    .partnersDescription {
-      text-align: center;
-      margin-bottom: 1.5rem;
-      .partnersTitle {
-        line-height: 1.7;
-      }
-
-      .partnersHightlight {
-        font-size: 0.8rem;
-      }
-    }
-    @media (min-width: 720px) {
-      padding: 4rem;
-
-      .partnersDescription {
-        display: flex;
-        justify-content: space-between;
-      }
-      .partnersTitle {
-        font-size: 2rem;
-      }
-    }
-  }
-`
+export const HomePage = styled.div``
 
 export const HeroSection = styled.section`
   display: flex;
@@ -82,6 +55,7 @@ export const HeroSection = styled.section`
     }
   }
 `
+
 export const LearnSection = styled.section`
   .learnCover {
     .learnImage {
@@ -133,6 +107,7 @@ export const LearnSection = styled.section`
     }
   }
 `
+
 export const ConnectionSection = styled.section`
   padding: 2rem;
   background: var(--light-grey);
@@ -154,7 +129,6 @@ export const ConnectionSection = styled.section`
 
   @media (min-width: 720px) {
     padding: 4rem;
-
     .connectionDescription {
       display: flex;
       justify-content: space-between;
@@ -168,6 +142,37 @@ export const ConnectionSection = styled.section`
       .connectionHightlight {
         font-size: 0.9rem;
       }
+    }
+  }
+`
+
+export const PartnersSection = styled.section`
+  padding: 2rem;
+
+  .partnersDescription {
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+    /* title */
+    .partnersTitle {
+      line-height: 1.7;
+    }
+
+    .partnersHightlight {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* Device Breakpoint */
+  @media (min-width: 720px) {
+    padding: 4rem;
+
+    .partnersDescription {
+      display: flex;
+      justify-content: space-between;
+    }
+    .partnersTitle {
+      font-size: 2rem;
     }
   }
 `
