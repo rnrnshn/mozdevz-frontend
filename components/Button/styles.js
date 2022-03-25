@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.button`
   background: var(--primary);
@@ -9,8 +9,7 @@ export const Container = styled.button`
   font-size: 0.9rem;
   transition: filter 0.4s;
 
-  &:hover{
-    filter: brightness(0.85)
+  &:hover {
+    filter: brightness(0.85);
   }
-
 `

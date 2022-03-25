@@ -33,7 +33,7 @@ export const NavList = styled.ul`
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 20px;
-  
+
   @media (max-width: 500px) {
     display: flex;
     flex-direction: column;

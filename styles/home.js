@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const HomePage = styled.div`
   .hero {
@@ -165,4 +165,4 @@ export const HomePage = styled.div`
       }
     }
   }
-`;
+`

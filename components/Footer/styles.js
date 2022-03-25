@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.footer`
   background-color: var(--dark);
@@ -16,16 +16,14 @@ export const FooterLogo = styled.aside`
 
 export const FooterNav = styled.aside`
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
   justify-content: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
   a {
     padding: 5px;
     color: var(--white);
   }
 `
-
-
 
 export const FooterDetails = styled.aside`
   display: flex;
@@ -33,7 +31,7 @@ export const FooterDetails = styled.aside`
 `
 export const FooterCopy = styled.p`
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: var(--bold);
   margin-bottom: 1rem;
   color: var(--white);
@@ -43,13 +41,12 @@ export const FooterCopy = styled.p`
 export const FooterSocials = styled.div`
   text-align: center;
   margin-top: 2rem;
-  i{
-    
+  i {
     padding: 1rem;
-    img{
+    img {
       width: 2.3rem;
       height: 2.3rem;
-      padding: .3rem;
+      padding: 0.3rem;
       border: 2px solid var(--white);
     }
   }

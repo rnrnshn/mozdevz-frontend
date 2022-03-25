@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.aside`
   display: flex;
@@ -7,24 +7,24 @@ export const Container = styled.aside`
   @media (min-width: 720px) {
     display: block;
   }
-  .statsNumber{
+  .statsNumber {
     font-size: 3rem;
-    
-    @media (min-width: 720px){
+
+    @media (min-width: 720px) {
       display: block;
       font-size: 4.6rem;
       margin-bottom: 1rem;
     }
   }
-  .bar{
+  .bar {
     display: block;
     background-color: var(--primary);
-    height: .3rem;
+    height: 0.3rem;
   }
-  .statsText{
-    font-size: .6rem;
+  .statsText {
+    font-size: 0.6rem;
     @media (min-width: 720px) {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 `

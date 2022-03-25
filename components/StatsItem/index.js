@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container } from "./styles"
 
 export function StatsItem(props) {
   return (
@@ -6,12 +6,10 @@ export function StatsItem(props) {
       <h2 className="statsNumber">
         {props.title}
         <span className="bar"></span>
-      </h2> 
-      <p className="statsText">
-        {props.text}
-      </p>
+      </h2>
+      <p className="statsText">{props.text}</p>
     </Container>
   )
 }
 
-export default StatsItem;
+export default StatsItem

@@ -1,15 +1,13 @@
-import { ContactPage } from '../../styles/contact'
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import location from '../../assets/icons/location.svg'
-import email from '../../assets/icons/email.svg'
-import phone from '../../assets/icons/phone.svg'
-import twitter from '../../assets/icons/twitter.svg'
-import facebook from '../../assets/icons/facebook.svg'
-import { Button } from '../../components/Button';
-import Image from 'next/image';
-
-
+import { ContactPage } from "../../styles/contact"
+import Header from "../../components/Header"
+import Footer from "../../components/Footer"
+import location from "../../assets/icons/location.svg"
+import email from "../../assets/icons/email.svg"
+import phone from "../../assets/icons/phone.svg"
+import twitter from "../../assets/icons/twitter.svg"
+import facebook from "../../assets/icons/facebook.svg"
+import { Button } from "../../components/Button"
+import Image from "next/image"
 
 function Contact() {
   return (
@@ -20,9 +18,7 @@ function Contact() {
         <aside className="contactDetails">
           {/* Contact Description */}
           <div className="contactDescription">
-            <h1 className="contactTitle">
-              Contacte-nos
-            </h1>
+            <h1 className="contactTitle">Contacte-nos</h1>
             <p className="contactText">
               Para mais informações não exite em escrever-nos
             </p>
@@ -38,9 +34,7 @@ function Contact() {
                 width={19}
                 height={19}
               />
-              <span className="text">
-                +258 84 623 9715 / +258 84 729 8029
-              </span>
+              <span className="text">+258 84 623 9715 / +258 84 729 8029</span>
             </div>
 
             <div className="contactLabel">
@@ -51,9 +45,7 @@ function Contact() {
                 width={19}
                 height={19}
               />
-              <span className="text">
-                info@mozdevz.org
-              </span>
+              <span className="text">info@mozdevz.org</span>
             </div>
 
             <div className="contactLabel">
@@ -117,4 +109,4 @@ function Contact() {
   )
 }
 
-export default Contact;
+export default Contact
