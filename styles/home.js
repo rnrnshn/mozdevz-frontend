@@ -1,56 +1,6 @@
 import styled from "styled-components"
 
 export const HomePage = styled.div`
-  .learn {
-    .learnCover {
-      .learnImage {
-        width: 100%;
-      }
-    }
-
-    .learnDescription {
-      padding: 2rem;
-      text-align: center;
-
-      .learnTittle {
-        margin-bottom: 1rem;
-      }
-
-      .learnText {
-        font-size: 0.8rem;
-        margin-bottom: 1rem;
-      }
-    }
-    @media (min-width: 720px) {
-      display: flex;
-      height: 24rem;
-      * {
-        flex-basis: 50%;
-      }
-
-      .learnCover > .learnImage {
-        object-fit: cover;
-        height: 100%;
-      }
-
-      .learnDescription {
-        padding: 4rem;
-        text-align: left;
-
-        .learnTittle {
-          width: 20ch;
-          font-size: 2rem;
-        }
-
-        .learnText {
-          font-size: 0.9rem;
-          width: 80%;
-          line-height: 1.7;
-        }
-      }
-    }
-  }
-
   .connection {
     padding: 2rem;
     background: var(--light-grey);
@@ -117,7 +67,7 @@ export const HomePage = styled.div`
   }
 `
 
-export const Hero = styled.section`
+export const HeroSection = styled.section`
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -166,6 +116,57 @@ export const Hero = styled.section`
       order: 1;
       .coverImage {
         width: 30rem;
+      }
+    }
+  }
+`
+export const LearnSection = styled.section`
+  .learnCover {
+    .learnImage {
+      width: 100%;
+    }
+  }
+
+  .learnDescription {
+    padding: 2rem;
+    text-align: center;
+
+    .learnTittle {
+      margin-bottom: 1rem;
+    }
+
+    .learnText {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  /* Device Breakpoint */
+  @media (min-width: 720px) {
+    display: flex;
+    height: 24rem;
+    * {
+      flex-basis: 50%;
+    }
+
+    .learnCover > .learnImage {
+      object-fit: cover;
+      height: 100%;
+    }
+
+    .learnDescription {
+      padding: 4rem;
+      text-align: left;
+
+      .learnTittle {
+        width: 20ch;
+        font-size: 2rem;
+      }
+
+      .learnText {
+        font-size: 0.9rem;
+        width: 80%;
+        line-height: 1.7;
       }
     }
   }
