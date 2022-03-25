@@ -1,56 +1,6 @@
 import styled from "styled-components"
 
 export const HomePage = styled.div`
-  .hero {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem 0.5rem;
-
-    .heroDescription {
-      order: 1;
-      .heroTitle {
-        font-size: 1rem;
-        text-transform: uppercase;
-        font-weight: var(--extra-bold);
-        padding-bottom: 2rem;
-      }
-    }
-    .heroCover {
-      margin-bottom: 2rem;
-
-      .coverImage {
-        width: 80%;
-      }
-    }
-    @media (min-width: 720px) {
-      flex-direction: row;
-      padding: 4rem;
-
-      .heroDescription {
-        flex: 2;
-        display: inherit;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-
-        .heroTitle {
-          font-size: 2.5rem;
-          text-align: left;
-          text-transform: uppercase;
-          font-weight: var(--extra-bold);
-        }
-      }
-      .heroCover {
-        flex: 1;
-        order: 1;
-        .coverImage {
-          width: 30rem;
-        }
-      }
-    }
-  }
-
   .learn {
     .learnCover {
       .learnImage {
@@ -162,6 +112,60 @@ export const HomePage = styled.div`
       }
       .partnersTitle {
         font-size: 2rem;
+      }
+    }
+  }
+`
+
+export const Hero = styled.section`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  /* Hero Description */
+  .heroDescription {
+    order: 1;
+    .heroTitle {
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: var(--extra-bold);
+      padding-bottom: 2rem;
+    }
+  }
+
+  /* HaroCover */
+  .heroCover {
+    margin-bottom: 2rem;
+
+    .coverImage {
+      width: 80%;
+    }
+  }
+
+  /* Device Breakpoint */
+  @media (min-width: 720px) {
+    flex-direction: row;
+    padding: 4rem;
+
+    .heroDescription {
+      flex: 2;
+      display: inherit;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      .heroTitle {
+        font-size: 2.5rem;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: var(--extra-bold);
+      }
+    }
+    .heroCover {
+      flex: 1;
+      order: 1;
+      .coverImage {
+        width: 30rem;
       }
     }
   }

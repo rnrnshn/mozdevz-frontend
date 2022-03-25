@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
-import { HomePage } from "../styles/home"
+import { Hero, HomePage } from "../styles/home"
 import cover from "../assets/cover.svg"
 import mozdevz from "../assets/mozdevz.jpg"
 import Header from "../components/Header"
@@ -21,7 +21,9 @@ export default function Home() {
         <title>Comunidade Mozdevz</title>
       </Head>
       <Header />
-      <section className="hero">
+
+      {/* Hero Section*/}
+      <Hero>
         {/* Description */}
         <aside className="heroDescription">
           <h1 className="heroTitle">
@@ -40,7 +42,7 @@ export default function Home() {
             height={390}
           />
         </aside>
-      </section>
+      </Hero>
       {/* Stats Container */}
       <StatsContainer />
 
