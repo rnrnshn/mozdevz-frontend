@@ -1,44 +1,6 @@
 import styled from "styled-components"
 
 export const HomePage = styled.div`
-  .connection {
-    padding: 2rem;
-    background: var(--light-grey);
-    text-align: center;
-
-    .connectionDescription {
-      margin-bottom: 2rem;
-
-      .connectionTitle {
-        text-transform: uppercase;
-        margin-bottom: 0.5rem;
-      }
-
-      .connectionHightlight {
-        color: var(--primary);
-        font-size: 0.6rem;
-      }
-    }
-
-    @media (min-width: 720px) {
-      padding: 4rem;
-      .connectionDescription {
-        display: flex;
-        justify-content: space-between;
-
-        .connectionTitle {
-          font-size: 2rem;
-          width: 12ch;
-          line-height: 1.4;
-        }
-
-        .connectionHightlight {
-          font-size: 0.9rem;
-        }
-      }
-    }
-  }
-
   .partners {
     padding: 2rem;
 
@@ -167,6 +129,44 @@ export const LearnSection = styled.section`
         font-size: 0.9rem;
         width: 80%;
         line-height: 1.7;
+      }
+    }
+  }
+`
+export const ConnectionSection = styled.section`
+  padding: 2rem;
+  background: var(--light-grey);
+  text-align: center;
+
+  .connectionDescription {
+    margin-bottom: 2rem;
+
+    .connectionTitle {
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .connectionHightlight {
+      color: var(--primary);
+      font-size: 0.6rem;
+    }
+  }
+
+  @media (min-width: 720px) {
+    padding: 4rem;
+
+    .connectionDescription {
+      display: flex;
+      justify-content: space-between;
+
+      .connectionTitle {
+        font-size: 2rem;
+        width: 12ch;
+        line-height: 1.4;
+      }
+
+      .connectionHightlight {
+        font-size: 0.9rem;
       }
     }
   }

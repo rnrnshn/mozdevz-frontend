@@ -1,6 +1,11 @@
 import Head from "next/head"
 import Image from "next/image"
-import { HeroSection, HomePage, LearnSection } from "../styles/home"
+import {
+  ConnectionSection,
+  HeroSection,
+  HomePage,
+  LearnSection
+} from "../styles/home"
 import cover from "../assets/cover.svg"
 import mozdevz from "../assets/mozdevz.jpg"
 import Header from "../components/Header"
@@ -69,7 +74,7 @@ export default function Home() {
         </aside>
       </LearnSection>
 
-      <section className="connection">
+      <ConnectionSection>
         {/* Description */}
         <aside className="connectionDescription">
           <h2 className="connectionTitle">Conexão e Integração</h2>
@@ -80,7 +85,7 @@ export default function Home() {
 
         {/* Container */}
         <CardContainer />
-      </section>
+      </ConnectionSection>
 
       {/* Sponsors */}
       <section className="partners">
